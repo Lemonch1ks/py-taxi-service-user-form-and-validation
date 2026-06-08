@@ -16,14 +16,14 @@
   <hr>
     {% if car in user.cars.all %}
       <a
-          href="{% url 'taxi:toggle_assign_to_car' pk=car.pk %}"
+          href="{% url 'taxi:toggle-assign-to-car' pk=car.pk %}"
           class="btn btn-danger link-to-page"
       >
         Delete me from this car
       </a>
     {% else %}
       <a
-          href="{% url 'taxi:toggle_assign_to_car' pk=car.pk %}"
+          href="{% url 'taxi:toggle-assign-to-car' pk=car.pk %}"
           class="btn btn-success link-to-page"
       >
         Assign me to this car
