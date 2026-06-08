@@ -82,7 +82,6 @@ TEMPLATES = [
 ]
 
 
-
 WSGI_APPLICATION = "taxi_service.wsgi.application"
 
 
